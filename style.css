@@ -1,0 +1,303 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+.headeR-bg {
+    background-color: #f5f5f5 !important;
+    border-bottom: 3px solid #e3e3e3;
+    
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 180px !important;
+    margin-right: 180px !important;
+
+
+}
+
+.navbar-1 {
+    background-color: #ffffff;
+    display: flex;
+    border-left: 3px solid rgb(210, 197, 197);
+    border-right: 3px solid rgb(210, 197, 197) ;
+    padding: 4px;
+
+      
+}
+
+.navbar-2 {
+   border-right: 2px solid  rgb(210, 197, 197);
+   padding: 5px;
+      
+}
+
+.navbar-3 {
+    border-right: 2px solid  rgb(210, 197, 197);
+    padding: 5px;
+}
+
+.navbar-4 {
+    border-right: 2px solid  rgb(210, 197, 197);
+    
+      
+}
+
+.navbar-5 {
+    border-right: 2px solid  rgb(210, 197, 197);
+      
+}
+
+/* hero-second-styling */
+.navbar-header-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 3px;
+    text-align: center;
+    
+}
+
+.navbar-buttons {
+    display: flex;
+    display: block;
+    align-items: center;
+    width: 127px;
+    height: 86px;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+
+}
+
+
+:hover.navbar-buttons i {
+    color: #ffffff;
+
+}
+
+:hover.navbar-buttons img {
+    background-color: #ffffff;
+
+}
+
+:hover.navbar-buttons span {
+    color: #ffffff;
+
+}
+
+:hover.navbar-buttons img {
+    color: #ffffff;
+
+}
+
+:hover.pokemon-boll-navbar {
+    background-color: #ffffff;
+}
+
+
+:hover.navbar-icons-buttons {
+    color: #ffffff;
+}
+
+.icons-navbar-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+
+.navbar-icons-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #464646;
+    margin: 7px auto;
+    font-size: 87.5%;
+    font-weight: 500;
+
+}
+
+.first-icon {
+    background-color:#919191;
+    color: #ffffff;
+    border-bottom-left-radius: 7px;
+    border-bottom: 6px solid #919191;
+
+}
+
+.vb {
+    font-size: 25px;
+}
+
+.icon-size {
+    font-size: 25px;
+    color: #919191;
+
+}
+
+:hover.icon-size {
+    color: white;
+
+}
+
+
+.two-icon {
+    border-bottom: 6px solid #e3350d;
+    color: #ffffff;
+
+}
+
+:hover.two-icon {
+    background-color:  #e3350d;
+    color: #ffffff;
+
+}
+
+.three-icon {
+    border-bottom: 6px solid #EE6B2F;
+    color: #ffffff;
+
+}
+
+:hover.three-icon {
+    background-color:  #EE6B2F;
+    color: #ffffff;
+
+}
+
+.four-icon {
+    border-bottom: 6px solid #e6bc2f;
+    color: #ffffff;
+
+}
+
+:hover.four-icon {
+    background-color:  #e6bc2f;
+    color: #ffffff;
+
+}
+
+.five-icon {
+    border-bottom: 6px solid green;
+    color: #ffffff;
+
+}
+
+:hover.five-icon {
+    background-color:  green;
+    color: #ffffff;
+
+}
+
+.six-icon {
+    border-bottom: 6px solid lightseagreen;
+    color: #ffffff;
+
+}
+
+:hover.six-icon {
+    background-color:  lightseagreen;
+    color: #ffffff;
+
+}
+
+
+.seven-icon {
+    border-bottom: 6px solid blue;
+    color: #ffffff;
+
+}
+
+:hover.seven-icon {
+    background-color:  blue;
+    color: #ffffff;
+
+}
+
+/* hero-section-styling */
+
+.hero-section-first {
+width: 600px;
+height: 200px;
+display: flex;
+flex-direction: column;
+
+}
+
+.hero-section-first {
+    background-image: url(./assets/container_bg.png);
+    width: 100%;
+    height: 2955px;
+  
+}
+
+.first-card {
+    width: 524px !important;
+    height: 324px !important;
+    border-start-start-radius: 6.5px !important;
+    border-start-end-radius: 6.5px !important;
+    border: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+ 
+}
+
+.first-card-body {
+    width: 524px !important;
+    background-color: #aaa4a4;
+    border-end-start-radius: 6.5px !important;
+    border-end-end-radius: 6.5px !important;
+    
+}
+
+.see-all {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 450;
+}
+
+.learn {
+    margin-top: 500px;
+}
+
+.card-second {
+    height: 50px !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    border-start-start-radius: 6.5px !important;
+    border-start-end-radius: 6.5px !important;
+    
+}
+
+.card-body-second {
+    background-color: #282828;
+    color: #ffffff;
+    height: 90px !important;
+    border-end-start-radius: 5.5px !important;
+    border-end-end-radius: 5.5px !important;
+
+}
+
+.card-text-secomd {
+    font-size: 1.3rem;
+    margin-left: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
