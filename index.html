@@ -1,100 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon Clone</title>
 
     <!-- link-css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- link-font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- link-bootstrap -->
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-</head>
-<body>
-    <nav class="navbar headeR-bg">
-        <div class="container navbar-top">
-          <img src="./assets/nav-1.png" class="navbar-1">
-          <img src="./assets/nav-2.png" alt="" class="navbar-2">
-          <img src="./assets/nav-3.png" alt="" class="navbar-3">
-          <img src="./assets/nav-4.png" alt="" class="navbar-4">
-          <img src="./assets/rr.jpg" alt="" class="navbar-5">
-          <img src="./assets/nav-6.png" alt="" class="navbar-4">
-          <img src="./assets/nav-7.png" alt="">
-        </div>
-      </nav>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
 
-      <!-- second-navbar -->
-      <div class="navbar-header-2">
-        <div  class="navbar-buttons first-icon">
-          <div class="icons-navbar-2 ">
-          <i class="fa-solid fa-paw vb" ></i>
-         </div>
-          <span class="navbar-icons-buttons first-icon"> Home</span>
+  <body>
+    <nav class="navbar headeR-bg">
+      <div class="container navbar-top">
+        <img src="./assets/nav-1.png" class="navbar-1" />
+        <img src="./assets/nav-2.png" alt="" class="navbar-2" />
+        <img src="./assets/nav-3.png" alt="" class="navbar-3" />
+        <img src="./assets/nav-4.png" alt="" class="navbar-4" />
+        <img src="./assets/rr.jpg" alt="" class="navbar-5" />
+        <img src="./assets/nav-6.png" alt="" class="navbar-4" />
+        <img src="./assets/nav-7.png" alt="" />
+      </div>
+    </nav>
+
+    <!-- second-navbar -->
+    <div class="navbar-header-2">
+      <div class="navbar-buttons first-icon">
+        <div class="icons-navbar-2">
+          <i class="fa-solid fa-paw vb"></i>
         </div>
-        <div  class="navbar-buttons two-icon">
-          <div class="icons-navbar-2">
-          <img src="./assets/pokeball_gray.png" alt="" width="30px" class="pokemon-boll-navbar">
-          </div>
+        <span class="navbar-icons-buttons first-icon"> Home</span>
+      </div>
+      <div class="navbar-buttons two-icon">
+        <div class="icons-navbar-2">
+          <img
+            src="./assets/pokeball_gray.png"
+            alt=""
+            width="30px"
+            class="pokemon-boll-navbar"
+          />
+        </div>
         <span class="navbar-icons-buttons"> Pokemon</span>
-        </div>
-        <div  class="navbar-buttons three-icon">
-          <div class="icons-navbar-2">
+      </div>
+      <div class="navbar-buttons three-icon">
+        <div class="icons-navbar-2">
           <i class="fa-solid fa-plus icon-size"></i>
-          </div>
-          <span class="navbar-icons-buttons"> Video Games & Game</span>
         </div>
-        <div  class="navbar-buttons four-icon">
-          <div class="icons-navbar-2">
+        <span class="navbar-icons-buttons"> Video Games & Game</span>
+      </div>
+      <div class="navbar-buttons four-icon">
+        <div class="icons-navbar-2">
           <i class="fa-regular fa-credit-card icon-size"></i>
-          </div>
-          <span class="navbar-icons-buttons"> Trading Card Game</span>
         </div>
-        <div class="navbar-buttons five-icon">
-          <div class="icons-navbar-2">
+        <span class="navbar-icons-buttons"> Trading Card Game</span>
+      </div>
+      <div class="navbar-buttons five-icon">
+        <div class="icons-navbar-2">
           <i class="fa-solid fa-circle-play icon-size"></i>
-          </div>
-          <span class="navbar-icons-buttons"> Animation</span>
         </div>
-        <div  class="navbar-buttons six-icon">
-          <div class="icons-navbar-2">
+        <span class="navbar-icons-buttons"> Animation</span>
+      </div>
+      <div class="navbar-buttons six-icon">
+        <div class="icons-navbar-2">
           <i class="fa-solid fa-trophy icon-size"></i>
-          </div>
-          <span class="navbar-icons-buttons"> Play! Pokemon Events</span>
         </div>
-        <div  class="navbar-buttons seven-icon">
-          <div class="icons-navbar-2">
+        <span class="navbar-icons-buttons"> Play! Pokemon Events</span>
+      </div>
+      <div class="navbar-buttons seven-icon">
+        <div class="icons-navbar-2">
           <i class="fa-solid fa-newspaper icon-size"></i>
+        </div>
+        <span class="navbar-icons-buttons"> News</span>
+      </div>
+    </div>
+
+    <div class="hero-section-first">
+      <div class="first-card">
+        <div class="card first-card" style="width: 18rem">
+          <img src="./assets/hero-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body first-card-body">
+            <p class="card-text see-all">
+              See All the Latest News from the Pokemon Day 2024 Pokemon Present
+            </p>
+            <span class="learn">
+              Learn about upcoming Pokemon Legends: Z-A and Pokemon Trading Card
+              Game Poket along with even more updates.
+            </span>
           </div>
-          <span class="navbar-icons-buttons"> News</span>
         </div>
       </div>
-      
-      <div class="hero-section-first">
-        <div class="first-card">
-          <div class="card first-card" style="width: 18rem;">
-            <img src="./assets/hero-1.jpg" class="card-img-top" alt="..." >
-            <div class="card-body first-card-body">
-              <p class="card-text see-all">See All the Latest News from the Pokemon Day 2024 Pokemon Present </p><span class="learn">
-                Learn about upcoming Pokemon Legends: Z-A and Pokemon Trading Card Game Poket along with even more updates.
-              </span>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card card-second" style="width: 18rem;">
-          <img src="./assets/hero-2.png" class="card-img-top" alt="...">
-          <div class="card-body-second ">
-            <p class="card-text-secomd">New Horizons in <br> Pokemon GO</p>
-          </div>
-        </div>
-    
 
+      <div class="first-card-bot">
+        <div class="card card-second" style="width: 15.9rem">
+          <img src="./assets/hero-2.png" class="card-img-top" alt="..." />
+          <div class="card-body-second">
+            <p class="card-text-secomd">
+              New Horizons in <br />
+              Pokemon GO
+            </p>
+          </div>
+        </div>
+
+        <div class="card card-second pokemon-tcg" style="width: 15.9rem">
+          <img src="./assets/hero-3.png" class="card-img-top" alt="..." />
+          <div class="card-body-second card-body-seconds">
+            <p class="card-text-secomd">
+              New Horizons in <br />
+              Pokemon GO
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-first-second-items">
+      <div class="card card-second pokemon-tcg hero-first-second-items-cards" style="width: 14.9rem">
+        <img src="./assets/hero-4.png" class="card-img-top" alt="..." />
+        <div class="card-body-second card-body-secondt">
+          <p class="card-text-secomd">
+            New Horizons in <br />
+            Pokemon GO 
+          </p>
+        </div>
+      </div>
+
+      <div class="card card-second pokemon-tcg hero-first-second-items-cards" style="width: 14.9rem">
+        <img src="./assets/pokemon-go-169.png" class="card-img-top" alt="..." />
+        <div class="card-body-second card-body-secondu">
+          <p class="card-text-secomd">
+            New Horizons in <br />
+            Pokemon GO
+          </p>
+        </div>
+      </div>
+
+      <div class="card card-second pokemon-tcg hero-first-second-items-cards" style="width: 14.9rem">
+        <img src="./assets/hero-6.png" class="card-img-top" alt="..." />
+        <div class="card-body-second card-body-secondv">
+          <p class="card-text-secomd">
+            New Horizons in <br />
+            Pokemon GO
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- link-bootstap -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
