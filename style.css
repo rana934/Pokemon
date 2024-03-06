@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+    width: auto;
 
 }
 
@@ -99,6 +99,10 @@
 
 :hover.pokemon-boll-navbar {
     background-color: #ffffff;
+}
+
+.pokemon-boll-navbar  {
+    width: 33px !important;
 }
 
 
@@ -238,10 +242,12 @@ flex-direction: column;
 
 .hero-section-first {
     background-image: url(./assets/container_bg.png);
-    width: 100%;
+    width: 80%;
     /* height: 2955px; */
     margin-left: 200px;
     background-color: #ffffff !important;
+    display: flex;
+     
   
 }
 
@@ -287,7 +293,6 @@ flex-direction: column;
     border-start-start-radius: 6.5px !important;
     border-start-end-radius: 6.5px !important;
 
-    
 }
 
 .card-body-second {
@@ -310,7 +315,6 @@ flex-direction: column;
 .first-card-bot {
     display: flex;
     margin-top: 8px;
-
 
 }
 
@@ -346,3 +350,9 @@ flex-direction: column;
 .card-body-secondv {
     background-color: #1b82b1;
 }
+
+/* .carousel-item {
+    width: 350px !important;
+    align-items: center;
+    align-content: center;
+} */
